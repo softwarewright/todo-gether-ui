@@ -23,6 +23,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
+    "clsx": "^1.1.0",
     "next": "^9.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@types/node": "^13.11.0",
     "@types/react": "^16.9.32",
+    "babel-plugin-styled-components": "^1.10.7",
     "jest": "^25.2.7"
   }
 }

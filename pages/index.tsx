@@ -1,10 +1,9 @@
-import Header from '../components/Header';
+import Layout from '../components/Layout';
+import Login from '../components/Login/Login';
+import Home from '../components/Home';
 
 export default function Index() {
     return (
-        <div>
-            <Header/>
-            <p>Hello Next.js</p>
-        </div>
+      <Layout> <Home/> </Layout>
     )
 }

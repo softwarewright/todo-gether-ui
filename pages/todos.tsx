@@ -1,14 +1,13 @@
 import Button from '@material-ui/core/Button';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 
 export default function About() {
     return (
-        <div>
-            <Header/>
+        <Layout>
             <p>About Page</p>
             <Button variant="contained" color="primary">
                 Hello World
             </Button>
-        </div>
+        </Layout>
     )
 }
